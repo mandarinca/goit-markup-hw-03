@@ -62,6 +62,7 @@ header {
 .studio-down {
   color: #f4f4fd;
   padding-bottom: 16px;
+  margin-top: 252px;
 }
 .navigator {
   display: flex;
@@ -125,6 +126,7 @@ header {
   line-height: 1.1;
   padding-top: 212px;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .button-order {
@@ -140,7 +142,6 @@ header {
   margin-bottom: 188px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
 }
 
 .button-order:hover,
@@ -200,7 +201,7 @@ header {
   list-style-type: none;
   display: flex;
   gap: 24px;
-  width: calc((100%-72) /4);
+  width: calc((100%-72px) /4);
 
 }
 .team-item {
@@ -255,6 +256,13 @@ header {
 
 .buttons {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.text-button {
+  padding: 12px 24px;
 }
 
 .button {
@@ -267,6 +275,8 @@ header {
   cursor: pointer;
   margin-top: 120px;
   margin-bottom: 72px;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
 }
 
 
@@ -278,13 +288,18 @@ header {
 
 .cards {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
+ 
 .card {
   text-decoration: none;
+  width: calc((100%-72px) / 3);
+  
 }
-.pct-card {
-  padding-bottom: 32px;
-}
+
 
 .card-title {
   color: var(--brand-color);
@@ -292,13 +307,22 @@ header {
   font-size: 20px;
   line-height: 1.2;
   padding-bottom: 8px;
+  text-align: center;
+  padding-top: 32px;
 }
+
 .card-type {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.card-type:last-child(-3n+3) {
   margin-bottom: 252px;
 }
+
 .card-title:hover,
 .card-title:focus,
 .card-type:hover,
