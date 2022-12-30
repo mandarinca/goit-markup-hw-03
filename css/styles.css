@@ -19,6 +19,9 @@ ul, ol {
   margin: 0;
   padding-left: 0;
 }
+button {
+  border: none;
+}
 
 img {
   display: block;
@@ -40,6 +43,7 @@ body {
 header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: #E7E9FC solid 1px ;
 }
 
 .logo {
@@ -122,11 +126,12 @@ header {
 .mail-tel {
   list-style-type: none;
   display: flex;
+  margin-left: 332px
 }
 
 .menu-mail {
   margin-right: 40px;
-  margin-left: 332px
+  
 }
 
 /*main*/
@@ -142,8 +147,8 @@ header {
   font-weight: 600;
   font-size: 56px;
   line-height: 1.1;
-  padding-left: 496px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+  max-width: 496px;
 }
 
 .button-order {
@@ -162,6 +167,7 @@ header {
   margin: 0 auto;
 }
 
+  
 .button-order:hover,
 .button-order:focus {
   color: #ffffff;
@@ -221,7 +227,7 @@ header {
 }
 
 .second {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .team {
@@ -290,6 +296,7 @@ header {
 
 .section-portfolio {
   padding-top: 120px;
+  padding-bottom: 96px;
 
 }
 
@@ -351,7 +358,7 @@ header {
   line-height: 1.5;
 }
 
-.border {
+.border-pct {
   padding: 32px 16px;
   border: 1px solid #E7E9FC;
   border-top: none;
@@ -370,10 +377,10 @@ header {
   font-size: 16px;
   line-height: 1.6;
   width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 .the-end {
-  background-color: var(--brand-color);
-padding: 100px 1020px 100px 156px;
+background-color: var(--brand-color);
+padding: 100px;
 }
